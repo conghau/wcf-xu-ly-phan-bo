@@ -46,7 +46,7 @@ namespace App
             }
             catch (Exception exception)
             {
-                Utilities.ShowMessageError("Lỗi : " + exception.Message);
+                Utilities.ShowMessageError("Error: " + exception.Message);
                 throw;
             }
 
