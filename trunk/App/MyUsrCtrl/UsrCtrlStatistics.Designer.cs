@@ -75,8 +75,8 @@ namespace App.MyUsrCtrl
             // splitContainer1.Panel2
             // 
             this.splitContainer1.Panel2.Controls.Add(this.groupBox2);
-            this.splitContainer1.Size = new System.Drawing.Size(976, 530);
-            this.splitContainer1.SplitterDistance = 221;
+            this.splitContainer1.Size = new System.Drawing.Size(885, 530);
+            this.splitContainer1.SplitterDistance = 201;
             this.splitContainer1.TabIndex = 1;
             // 
             // groupBox1
@@ -86,10 +86,10 @@ namespace App.MyUsrCtrl
             this.groupBox1.Font = new System.Drawing.Font("Tahoma", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(0, 0);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(221, 530);
+            this.groupBox1.Size = new System.Drawing.Size(201, 530);
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Lọc";
+            this.groupBox1.Text = "Filter";
             // 
             // panel1
             // 
@@ -104,7 +104,7 @@ namespace App.MyUsrCtrl
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(3, 21);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(215, 506);
+            this.panel1.Size = new System.Drawing.Size(195, 506);
             this.panel1.TabIndex = 0;
             // 
             // txtProductName
@@ -113,7 +113,7 @@ namespace App.MyUsrCtrl
             | System.Windows.Forms.AnchorStyles.Right)));
             this.txtProductName.Location = new System.Drawing.Point(18, 50);
             this.txtProductName.Name = "txtProductName";
-            this.txtProductName.Size = new System.Drawing.Size(176, 25);
+            this.txtProductName.Size = new System.Drawing.Size(156, 25);
             this.txtProductName.TabIndex = 13;
             // 
             // btnClose
@@ -123,9 +123,9 @@ namespace App.MyUsrCtrl
             this.btnClose.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnClose.Location = new System.Drawing.Point(18, 312);
             this.btnClose.Name = "btnClose";
-            this.btnClose.Size = new System.Drawing.Size(176, 35);
+            this.btnClose.Size = new System.Drawing.Size(156, 35);
             this.btnClose.TabIndex = 12;
-            this.btnClose.Text = "Đóng";
+            this.btnClose.Text = "Close";
             this.btnClose.UseVisualStyleBackColor = true;
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
@@ -136,9 +136,9 @@ namespace App.MyUsrCtrl
             this.btnStatistics.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnStatistics.Location = new System.Drawing.Point(18, 259);
             this.btnStatistics.Name = "btnStatistics";
-            this.btnStatistics.Size = new System.Drawing.Size(176, 35);
+            this.btnStatistics.Size = new System.Drawing.Size(156, 35);
             this.btnStatistics.TabIndex = 11;
-            this.btnStatistics.Text = "Thống kê";
+            this.btnStatistics.Text = "Statistics";
             this.btnStatistics.UseVisualStyleBackColor = true;
             this.btnStatistics.Click += new System.EventHandler(this.btnStatistics_Click);
             // 
@@ -150,7 +150,7 @@ namespace App.MyUsrCtrl
             this.dtAt.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dtAt.Location = new System.Drawing.Point(18, 149);
             this.dtAt.Name = "dtAt";
-            this.dtAt.Size = new System.Drawing.Size(176, 25);
+            this.dtAt.Size = new System.Drawing.Size(156, 25);
             this.dtAt.TabIndex = 2;
             // 
             // cboCate
@@ -161,7 +161,7 @@ namespace App.MyUsrCtrl
             this.cboCate.FormattingEnabled = true;
             this.cboCate.Location = new System.Drawing.Point(18, 99);
             this.cboCate.Name = "cboCate";
-            this.cboCate.Size = new System.Drawing.Size(176, 26);
+            this.cboCate.Size = new System.Drawing.Size(156, 26);
             this.cboCate.TabIndex = 1;
             this.cboCate.ValueMember = "ID";
             // 
@@ -170,27 +170,27 @@ namespace App.MyUsrCtrl
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(15, 128);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(42, 18);
+            this.label3.Size = new System.Drawing.Size(22, 18);
             this.label3.TabIndex = 0;
-            this.label3.Text = "Ngày";
+            this.label3.Text = "At";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(15, 29);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(74, 18);
+            this.label4.Size = new System.Drawing.Size(57, 18);
             this.label4.TabIndex = 0;
-            this.label4.Text = "Sản phẩm";
+            this.label4.Text = "Product";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(15, 78);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(68, 18);
+            this.label1.Size = new System.Drawing.Size(67, 18);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Nhóm SP";
+            this.label1.Text = "Category";
             // 
             // groupBox2
             // 
@@ -199,10 +199,10 @@ namespace App.MyUsrCtrl
             this.groupBox2.Font = new System.Drawing.Font("Tahoma", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.Location = new System.Drawing.Point(0, 0);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(751, 530);
+            this.groupBox2.Size = new System.Drawing.Size(680, 530);
             this.groupBox2.TabIndex = 3;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Kết quả";
+            this.groupBox2.Text = "Result";
             // 
             // lstResult
             // 
@@ -221,7 +221,7 @@ namespace App.MyUsrCtrl
             this.lstResult.HideSelection = false;
             this.lstResult.Location = new System.Drawing.Point(3, 21);
             this.lstResult.Name = "lstResult";
-            this.lstResult.Size = new System.Drawing.Size(745, 506);
+            this.lstResult.Size = new System.Drawing.Size(674, 506);
             this.lstResult.TabIndex = 4;
             this.lstResult.UseCompatibleStateImageBehavior = false;
             this.lstResult.View = System.Windows.Forms.View.Details;
@@ -229,38 +229,38 @@ namespace App.MyUsrCtrl
             // columnHeader1
             // 
             this.columnHeader1.Text = "#";
-            this.columnHeader1.Width = 42;
+            this.columnHeader1.Width = 40;
             // 
             // colProduct
             // 
-            this.colProduct.Text = "Sản phẩm";
-            this.colProduct.Width = 172;
+            this.colProduct.Text = "Product";
+            this.colProduct.Width = 250;
             // 
             // colUnit
             // 
-            this.colUnit.Text = "Số lượng";
+            this.colUnit.Text = "Unit (s)";
             this.colUnit.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.colUnit.Width = 80;
             // 
             // colPriceUnit
             // 
-            this.colPriceUnit.Text = "Giá";
+            this.colPriceUnit.Text = "Price/Unit";
             this.colPriceUnit.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            this.colPriceUnit.Width = 135;
+            this.colPriceUnit.Width = 150;
             // 
             // colRepo1
             // 
-            this.colRepo1.Text = "Kho A";
+            this.colRepo1.Text = "Repo A";
             this.colRepo1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // colRepo2
             // 
-            this.colRepo2.Text = "Kho B";
+            this.colRepo2.Text = "Repo B";
             this.colRepo2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // colTime
             // 
-            this.colTime.Text = "Thời gian cập nhập";
+            this.colTime.Text = "Update Time";
             this.colTime.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.colTime.Width = 180;
             // 
@@ -269,7 +269,7 @@ namespace App.MyUsrCtrl
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.Controls.Add(this.splitContainer1);
             this.Name = "UsrCtrlStatistics";
-            this.Size = new System.Drawing.Size(976, 530);
+            this.Size = new System.Drawing.Size(885, 530);
             this.Load += new System.EventHandler(this.UsrCtrlStatistics_Load);
             this.splitContainer1.Panel1.ResumeLayout(false);
             this.splitContainer1.Panel2.ResumeLayout(false);

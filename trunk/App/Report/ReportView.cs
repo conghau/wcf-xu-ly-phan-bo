@@ -1,4 +1,9 @@
-﻿
+﻿// Copyright: 2012 
+// Author: Minh Vu - YoungJ
+// File name: ReportView.cs
+// Solution: iShopSolution
+// Project: App
+// Time: 9:15 PM 20/05/2012
 
 using System;
 using System.Collections.Generic;

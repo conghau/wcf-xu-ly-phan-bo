@@ -52,8 +52,8 @@
             // 
             // menuStrip1
             // 
-            this.menuStrip1.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
+            this.menuStrip1.Font = new System.Drawing.Font("Segoe UI", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(32, 32);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.configToolStripMenuItem,
             this.categoryToolStripMenuItem,
@@ -65,8 +65,7 @@
             this.reportToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Padding = new System.Windows.Forms.Padding(9, 2, 0, 2);
-            this.menuStrip1.Size = new System.Drawing.Size(917, 32);
+            this.menuStrip1.Size = new System.Drawing.Size(1087, 40);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -77,20 +76,20 @@
             this.exitToolStripMenuItem1});
             this.configToolStripMenuItem.Image = global::App.Properties.Resources.system_config;
             this.configToolStripMenuItem.Name = "configToolStripMenuItem";
-            this.configToolStripMenuItem.Size = new System.Drawing.Size(113, 28);
+            this.configToolStripMenuItem.Size = new System.Drawing.Size(123, 36);
             this.configToolStripMenuItem.Text = "Cấu hình";
             // 
             // configToolStripMenuItem1
             // 
             this.configToolStripMenuItem1.Name = "configToolStripMenuItem1";
-            this.configToolStripMenuItem1.Size = new System.Drawing.Size(129, 28);
+            this.configToolStripMenuItem1.Size = new System.Drawing.Size(152, 28);
             this.configToolStripMenuItem1.Text = "Config";
             this.configToolStripMenuItem1.Click += new System.EventHandler(this.configToolStripMenuItem1_Click);
             // 
             // exitToolStripMenuItem1
             // 
             this.exitToolStripMenuItem1.Name = "exitToolStripMenuItem1";
-            this.exitToolStripMenuItem1.Size = new System.Drawing.Size(129, 28);
+            this.exitToolStripMenuItem1.Size = new System.Drawing.Size(152, 28);
             this.exitToolStripMenuItem1.Text = "Thoát";
             this.exitToolStripMenuItem1.Click += new System.EventHandler(this.exitToolStripMenuItem1_Click);
             // 
@@ -98,7 +97,7 @@
             // 
             this.categoryToolStripMenuItem.Image = global::App.Properties.Resources._1356465018_Aqua_Smooth_Folder_Apple;
             this.categoryToolStripMenuItem.Name = "categoryToolStripMenuItem";
-            this.categoryToolStripMenuItem.Size = new System.Drawing.Size(172, 28);
+            this.categoryToolStripMenuItem.Size = new System.Drawing.Size(182, 36);
             this.categoryToolStripMenuItem.Text = "Nhóm sản phẩm";
             this.categoryToolStripMenuItem.Click += new System.EventHandler(this.categoryToolStripMenuItem_Click);
             // 
@@ -106,20 +105,20 @@
             // 
             this.productToolStripMenuItem.Image = global::App.Properties.Resources._1356465015_packing;
             this.productToolStripMenuItem.Name = "productToolStripMenuItem";
-            this.productToolStripMenuItem.Size = new System.Drawing.Size(122, 28);
+            this.productToolStripMenuItem.Size = new System.Drawing.Size(131, 36);
             this.productToolStripMenuItem.Text = "Sản phẩm";
             this.productToolStripMenuItem.Click += new System.EventHandler(this.productToolStripMenuItem_Click);
             // 
             // toolStripMenuItem1
             // 
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(12, 28);
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(12, 36);
             // 
             // receiptNoteToolStripMenuItem
             // 
             this.receiptNoteToolStripMenuItem.Image = global::App.Properties.Resources._1356464822_receipt;
             this.receiptNoteToolStripMenuItem.Name = "receiptNoteToolStripMenuItem";
-            this.receiptNoteToolStripMenuItem.Size = new System.Drawing.Size(129, 28);
+            this.receiptNoteToolStripMenuItem.Size = new System.Drawing.Size(140, 36);
             this.receiptNoteToolStripMenuItem.Text = "Nhập hàng";
             this.receiptNoteToolStripMenuItem.Click += new System.EventHandler(this.receiptNoteToolStripMenuItem_Click);
             // 
@@ -127,7 +126,7 @@
             // 
             this.deliveryNoteToolStripMenuItem.Image = global::App.Properties.Resources._1356464833_delivery;
             this.deliveryNoteToolStripMenuItem.Name = "deliveryNoteToolStripMenuItem";
-            this.deliveryNoteToolStripMenuItem.Size = new System.Drawing.Size(123, 28);
+            this.deliveryNoteToolStripMenuItem.Size = new System.Drawing.Size(133, 36);
             this.deliveryNoteToolStripMenuItem.Text = "Xuất hàng";
             this.deliveryNoteToolStripMenuItem.Click += new System.EventHandler(this.deliveryNoteToolStripMenuItem_Click);
             // 
@@ -135,7 +134,7 @@
             // 
             this.statisticsToolStripMenuItem.Image = global::App.Properties.Resources._1356464832_blocks_mm_device_wired;
             this.statisticsToolStripMenuItem.Name = "statisticsToolStripMenuItem";
-            this.statisticsToolStripMenuItem.Size = new System.Drawing.Size(115, 28);
+            this.statisticsToolStripMenuItem.Size = new System.Drawing.Size(125, 36);
             this.statisticsToolStripMenuItem.Text = "Thống kê";
             this.statisticsToolStripMenuItem.Click += new System.EventHandler(this.statisticsToolStripMenuItem_Click);
             // 
@@ -143,7 +142,7 @@
             // 
             this.reportToolStripMenuItem.Image = global::App.Properties.Resources.format_justify_left_last;
             this.reportToolStripMenuItem.Name = "reportToolStripMenuItem";
-            this.reportToolStripMenuItem.Size = new System.Drawing.Size(106, 28);
+            this.reportToolStripMenuItem.Size = new System.Drawing.Size(115, 36);
             this.reportToolStripMenuItem.Text = "Báo cáo";
             this.reportToolStripMenuItem.Click += new System.EventHandler(this.reportToolStripMenuItem_Click);
             // 
@@ -153,11 +152,10 @@
             this.myTabControl.Dock = System.Windows.Forms.DockStyle.Fill;
             this.myTabControl.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.myTabControl.HotTrack = true;
-            this.myTabControl.Location = new System.Drawing.Point(0, 32);
-            this.myTabControl.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.myTabControl.Location = new System.Drawing.Point(0, 40);
             this.myTabControl.Name = "myTabControl";
             this.myTabControl.SelectedIndex = 0;
-            this.myTabControl.Size = new System.Drawing.Size(917, 530);
+            this.myTabControl.Size = new System.Drawing.Size(1087, 530);
             this.myTabControl.TabIndex = 1;
             // 
             // contextMenuStrip1
@@ -192,18 +190,16 @@
             // 
             // FormMainFinal
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(917, 562);
+            this.ClientSize = new System.Drawing.Size(1087, 570);
             this.Controls.Add(this.myTabControl);
             this.Controls.Add(this.menuStrip1);
-            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
-            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "FormMainFinal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "iShop";
+            this.Text = "iShop manager";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.contextMenuStrip1.ResumeLayout(false);
