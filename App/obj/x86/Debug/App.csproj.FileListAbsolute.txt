@@ -33,34 +33,81 @@ D:\DHSG\Sincere\NamIV\HocKyII\Web\Cuoiky\App\obj\x86\Debug\RdlCompile.compiled
 E:\Misa\DoAnWebService-salipropham.blogspot.com\Nhom01\DoAnWebservice_SGU\App\bin\Debug\App.exe.config
 E:\Misa\DoAnWebService-salipropham.blogspot.com\Nhom01\DoAnWebservice_SGU\App\obj\x86\Debug\App.exe
 E:\Misa\DoAnWebService-salipropham.blogspot.com\Nhom01\DoAnWebservice_SGU\App\obj\x86\Debug\App.pdb
-D:\DoAnWebservice\App\bin\Debug\App.exe.config
+D:\HocKi 8\xu ly phan bo\DoAnWebservice_SGU\DoAnWebservice_SGU\App\obj\x86\Debug\App.exe
+D:\HocKi 8\xu ly phan bo\DoAnWebservice_SGU\DoAnWebservice_SGU\App\obj\x86\Debug\App.pdb
+D:\HocKi 8\xu ly phan bo\DoAnWebservice_SGU\DoAnWebservice_SGU\App\bin\Debug\App.exe
+D:\HocKi 8\xu ly phan bo\DoAnWebservice_SGU\DoAnWebservice_SGU\App\bin\Debug\App.pdb
+D:\HocKi 8\xu ly phan bo\DoAnWebservice_SGU\DoAnWebservice_SGU\App\bin\Debug\Business.dll
+D:\HocKi 8\xu ly phan bo\DoAnWebservice_SGU\DoAnWebservice_SGU\App\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\HocKi 8\xu ly phan bo\DoAnWebservice_SGU\DoAnWebservice_SGU\App\bin\Debug\Business.pdb
+D:\HocKi 8\xu ly phan bo\DoAnWebservice_SGU\DoAnWebservice_SGU\App\bin\Debug\Microsoft.ReportViewer.WinForms.xml
+D:\HocKi 8\xu ly phan bo\DoAnWebservice_SGU\DoAnWebservice_SGU\App\obj\x86\Debug\App.csprojResolveAssemblyReference.cache
+D:\HocKi 8\xu ly phan bo\DoAnWebservice_SGU\DoAnWebservice_SGU\App\obj\x86\Debug\App.FormAppConfig.resources
+D:\HocKi 8\xu ly phan bo\DoAnWebservice_SGU\DoAnWebservice_SGU\App\obj\x86\Debug\App.FormCategoryManager.resources
+D:\HocKi 8\xu ly phan bo\DoAnWebservice_SGU\DoAnWebservice_SGU\App\obj\x86\Debug\App.FormDetailsProduct.resources
+D:\HocKi 8\xu ly phan bo\DoAnWebservice_SGU\DoAnWebservice_SGU\App\obj\x86\Debug\App.FormMain.resources
+D:\HocKi 8\xu ly phan bo\DoAnWebservice_SGU\DoAnWebservice_SGU\App\obj\x86\Debug\App.FormMainFinal.resources
+D:\HocKi 8\xu ly phan bo\DoAnWebservice_SGU\DoAnWebservice_SGU\App\obj\x86\Debug\App.FormProductManager.resources
+D:\HocKi 8\xu ly phan bo\DoAnWebservice_SGU\DoAnWebservice_SGU\App\obj\x86\Debug\App.MyUsrCtrl.MyUserControl.resources
+D:\HocKi 8\xu ly phan bo\DoAnWebservice_SGU\DoAnWebservice_SGU\App\obj\x86\Debug\App.MyUsrCtrl.UsrCtrlManagerDeliveryNote.resources
+D:\HocKi 8\xu ly phan bo\DoAnWebservice_SGU\DoAnWebservice_SGU\App\obj\x86\Debug\App.MyUsrCtrl.UsrCtrlManagerReceiptNote.resources
+D:\HocKi 8\xu ly phan bo\DoAnWebservice_SGU\DoAnWebservice_SGU\App\obj\x86\Debug\App.MyUsrCtrl.UsrCtrlAddReceiptNote.resources
+D:\HocKi 8\xu ly phan bo\DoAnWebservice_SGU\DoAnWebservice_SGU\App\obj\x86\Debug\App.MyUsrCtrl.UsrCtrlCategoryManager.resources
+D:\HocKi 8\xu ly phan bo\DoAnWebservice_SGU\DoAnWebservice_SGU\App\obj\x86\Debug\App.MyUsrCtrl.UsrCtrlDetailsProduct.resources
+D:\HocKi 8\xu ly phan bo\DoAnWebservice_SGU\DoAnWebservice_SGU\App\obj\x86\Debug\App.MyUsrCtrl.UsrCtrlProductManager.resources
+D:\HocKi 8\xu ly phan bo\DoAnWebservice_SGU\DoAnWebservice_SGU\App\obj\x86\Debug\App.MyUsrCtrl.UsrCtrlReport.resources
+D:\HocKi 8\xu ly phan bo\DoAnWebservice_SGU\DoAnWebservice_SGU\App\obj\x86\Debug\App.MyUsrCtrl.UsrCtrlStatistics.resources
+D:\HocKi 8\xu ly phan bo\DoAnWebservice_SGU\DoAnWebservice_SGU\App\obj\x86\Debug\App.Properties.Resources.resources
+D:\HocKi 8\xu ly phan bo\DoAnWebservice_SGU\DoAnWebservice_SGU\App\obj\x86\Debug\App.UsrCtrl.resources
+D:\HocKi 8\xu ly phan bo\DoAnWebservice_SGU\DoAnWebservice_SGU\App\obj\x86\Debug\App.MyUsrCtrl.UsrCtrlAppConfig.resources
+D:\HocKi 8\xu ly phan bo\DoAnWebservice_SGU\DoAnWebservice_SGU\App\obj\x86\Debug\App.csproj.GenerateResource.Cache
+D:\HocKi 8\xu ly phan bo\DoAnWebservice_SGU\DoAnWebservice_SGU\App\obj\x86\Debug\RdlCompile.cache
+D:\HocKi 8\xu ly phan bo\DoAnWebservice_SGU\DoAnWebservice_SGU\App\obj\x86\Debug\RdlCompile.compiled
+D:\HocKi 8\xu ly phan bo\DoAnWebservice_SGU\DoAnWebservice_SGU\App\bin\Debug\Database\Shop.cs
+D:\HocKi 8\xu ly phan bo\DoAnWebservice_SGU\DoAnWebservice_SGU\App\bin\Debug\Database\Shop.designer.cs
+D:\HocKi 8\xu ly phan bo\DoAnWebservice_SGU\DoAnWebservice_SGU\App\bin\Debug\Database\Shop.dbml
+D:\HocKi 8\xu ly phan bo\DoAnWebservice_SGU\DoAnWebservice_SGU\App\bin\Debug\Database\Shop.dbml.layout
+D:\publish\App\bin\Debug\App.exe
+D:\publish\App\bin\Debug\App.pdb
+D:\publish\App\bin\Debug\Business.dll
+D:\publish\App\bin\Debug\Business.pdb
+D:\publish\App\obj\x86\Debug\App.csprojResolveAssemblyReference.cache
+D:\publish\App\obj\x86\Debug\App.FormAppConfig.resources
+D:\publish\App\obj\x86\Debug\App.FormCategoryManager.resources
+D:\publish\App\obj\x86\Debug\App.FormDetailsProduct.resources
+D:\publish\App\obj\x86\Debug\App.FormMain.resources
+D:\publish\App\obj\x86\Debug\App.FormMainFinal.resources
+D:\publish\App\obj\x86\Debug\App.FormProductManager.resources
+D:\publish\App\obj\x86\Debug\App.MyUsrCtrl.MyUserControl.resources
+D:\publish\App\obj\x86\Debug\App.MyUsrCtrl.UsrCtrlManagerDeliveryNote.resources
+D:\publish\App\obj\x86\Debug\App.MyUsrCtrl.UsrCtrlManagerReceiptNote.resources
+D:\publish\App\obj\x86\Debug\App.MyUsrCtrl.UsrCtrlAddReceiptNote.resources
+D:\publish\App\obj\x86\Debug\App.MyUsrCtrl.UsrCtrlCategoryManager.resources
+D:\publish\App\obj\x86\Debug\App.MyUsrCtrl.UsrCtrlDetailsProduct.resources
+D:\publish\App\obj\x86\Debug\App.MyUsrCtrl.UsrCtrlProductManager.resources
+D:\publish\App\obj\x86\Debug\App.MyUsrCtrl.UsrCtrlReport.resources
+D:\publish\App\obj\x86\Debug\App.MyUsrCtrl.UsrCtrlStatistics.resources
+D:\publish\App\obj\x86\Debug\App.Properties.Resources.resources
+D:\publish\App\obj\x86\Debug\App.UsrCtrl.resources
+D:\publish\App\obj\x86\Debug\App.MyUsrCtrl.UsrCtrlAppConfig.resources
+D:\publish\App\obj\x86\Debug\App.csproj.GenerateResource.Cache
+D:\publish\App\obj\x86\Debug\RdlCompile.cache
+D:\publish\App\obj\x86\Debug\RdlCompile.compiled
+D:\publish\App\obj\x86\Debug\App.exe
+D:\publish\App\obj\x86\Debug\App.pdb
+D:\publish\App\bin\Debug\Microsoft.ReportViewer.Common.dll
+D:\publish\App\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\publish\App\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+D:\publish\App\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+D:\publish\App\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+D:\publish\App\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+D:\publish\App\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+D:\publish\App\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+D:\publish\App\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+D:\publish\App\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+D:\publish\App\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+D:\publish\App\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
 D:\DoAnWebservice\App\obj\x86\Debug\App.exe
 D:\DoAnWebservice\App\obj\x86\Debug\App.pdb
-D:\DoAnWebservice\App\bin\Debug\App.exe
-D:\DoAnWebservice\App\bin\Debug\App.pdb
-D:\DoAnWebservice\App\bin\Debug\Business.dll
-D:\DoAnWebservice\App\bin\Debug\Microsoft.ReportViewer.WinForms.dll
-D:\DoAnWebservice\App\bin\Debug\Business.pdb
-D:\DoAnWebservice\App\bin\Debug\Microsoft.ReportViewer.WinForms.xml
-D:\DoAnWebservice\App\obj\x86\Debug\App.csprojResolveAssemblyReference.cache
-D:\DoAnWebservice\App\obj\x86\Debug\App.FormAppConfig.resources
-D:\DoAnWebservice\App\obj\x86\Debug\App.FormCategoryManager.resources
-D:\DoAnWebservice\App\obj\x86\Debug\App.FormDetailsProduct.resources
-D:\DoAnWebservice\App\obj\x86\Debug\App.FormMain.resources
-D:\DoAnWebservice\App\obj\x86\Debug\App.FormMainFinal.resources
-D:\DoAnWebservice\App\obj\x86\Debug\App.FormProductManager.resources
-D:\DoAnWebservice\App\obj\x86\Debug\App.MyUsrCtrl.MyUserControl.resources
-D:\DoAnWebservice\App\obj\x86\Debug\App.MyUsrCtrl.UsrCtrlManagerDeliveryNote.resources
-D:\DoAnWebservice\App\obj\x86\Debug\App.MyUsrCtrl.UsrCtrlManagerReceiptNote.resources
-D:\DoAnWebservice\App\obj\x86\Debug\App.MyUsrCtrl.UsrCtrlAddReceiptNote.resources
-D:\DoAnWebservice\App\obj\x86\Debug\App.MyUsrCtrl.UsrCtrlCategoryManager.resources
-D:\DoAnWebservice\App\obj\x86\Debug\App.MyUsrCtrl.UsrCtrlDetailsProduct.resources
-D:\DoAnWebservice\App\obj\x86\Debug\App.MyUsrCtrl.UsrCtrlProductManager.resources
-D:\DoAnWebservice\App\obj\x86\Debug\App.MyUsrCtrl.UsrCtrlReport.resources
-D:\DoAnWebservice\App\obj\x86\Debug\App.MyUsrCtrl.UsrCtrlStatistics.resources
-D:\DoAnWebservice\App\obj\x86\Debug\App.Properties.Resources.resources
-D:\DoAnWebservice\App\obj\x86\Debug\App.UsrCtrl.resources
-D:\DoAnWebservice\App\obj\x86\Debug\App.MyUsrCtrl.UsrCtrlAppConfig.resources
-D:\DoAnWebservice\App\obj\x86\Debug\App.csproj.GenerateResource.Cache
-D:\DoAnWebservice\App\obj\x86\Debug\RdlCompile.cache
-D:\DoAnWebservice\App\obj\x86\Debug\RdlCompile.compiled
+D:\DoAnWCF_verWeb\App\obj\x86\Debug\App.exe
+D:\DoAnWCF_verWeb\App\obj\x86\Debug\App.pdb
