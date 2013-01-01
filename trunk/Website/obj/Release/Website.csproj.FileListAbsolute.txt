@@ -1,0 +1,4 @@
+D:\DoAnWebservice\Website\bin\Website.dll
+D:\DoAnWebservice\Website\bin\Website.pdb
+D:\DoAnWebservice\Website\obj\Release\Website.dll
+D:\DoAnWebservice\Website\obj\Release\Website.pdb

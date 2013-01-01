@@ -1,0 +1,7 @@
+D:\DoAnWebservice\Service\bin\Service.dll
+D:\DoAnWebservice\Service\bin\Service.pdb
+D:\DoAnWebservice\Service\bin\Business.dll
+D:\DoAnWebservice\Service\bin\Business.pdb
+D:\DoAnWebservice\Service\obj\Release\Service.csprojResolveAssemblyReference.cache
+D:\DoAnWebservice\Service\obj\Release\Service.dll
+D:\DoAnWebservice\Service\obj\Release\Service.pdb

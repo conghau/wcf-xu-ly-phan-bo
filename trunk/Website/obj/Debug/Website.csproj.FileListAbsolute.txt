@@ -1,0 +1,12 @@
+D:\DHSG\Sincere\NamIV\HocKyII\Web\Cuoiky\Website\bin\Website.dll
+D:\DHSG\Sincere\NamIV\HocKyII\Web\Cuoiky\Website\bin\Website.pdb
+D:\DHSG\Sincere\NamIV\HocKyII\Web\Cuoiky\Website\bin\AjaxControlToolkit.dll
+D:\DHSG\Sincere\NamIV\HocKyII\Web\Cuoiky\Website\bin\wpCumulus.dll
+D:\DHSG\Sincere\NamIV\HocKyII\Web\Cuoiky\Website\obj\Debug\ResolveAssemblyReference.cache
+D:\DHSG\Sincere\NamIV\HocKyII\Web\Cuoiky\Website\obj\Debug\Website.dll
+D:\DHSG\Sincere\NamIV\HocKyII\Web\Cuoiky\Website\obj\Debug\Website.pdb
+D:\DoAnWebservice\Website\bin\Website.dll
+D:\DoAnWebservice\Website\bin\Website.pdb
+D:\DoAnWebservice\Website\obj\Debug\Website.csprojResolveAssemblyReference.cache
+D:\DoAnWebservice\Website\obj\Debug\Website.dll
+D:\DoAnWebservice\Website\obj\Debug\Website.pdb
