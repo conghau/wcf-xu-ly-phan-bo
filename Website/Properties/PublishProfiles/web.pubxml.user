@@ -1,0 +1,405 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LastUsedBuildConfiguration>Release</LastUsedBuildConfiguration>
+    <LastUsedPlatform>Any CPU</LastUsedPlatform>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword />
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="admin/Default.aspx">
+      <publishTime>05/22/2012 21:34:33</publishTime>
+    </File>
+    <File Include="admin/login.aspx">
+      <publishTime>05/21/2012 22:29:09</publishTime>
+    </File>
+    <File Include="admin/Manager.Master">
+      <publishTime>05/21/2012 22:29:09</publishTime>
+    </File>
+    <File Include="bin/AjaxControlToolkit.dll">
+      <publishTime>09/30/2009 16:57:54</publishTime>
+    </File>
+    <File Include="bin/Website.dll">
+      <publishTime>12/31/2012 17:29:57</publishTime>
+    </File>
+    <File Include="bin/wpCumulus.dll">
+      <publishTime>07/08/2011 22:03:52</publishTime>
+    </File>
+    <File Include="Css/Asp.css">
+      <publishTime>05/21/2012 22:29:08</publishTime>
+    </File>
+    <File Include="Css/IE7.css">
+      <publishTime>05/14/2012 10:57:22</publishTime>
+    </File>
+    <File Include="Css/Main.css">
+      <publishTime>05/14/2012 10:57:22</publishTime>
+    </File>
+    <File Include="Css/New folder/Carousel.css">
+      <publishTime>05/14/2012 10:57:22</publishTime>
+    </File>
+    <File Include="Css/New folder/highslide.css">
+      <publishTime>05/14/2012 10:57:22</publishTime>
+    </File>
+    <File Include="Css/New folder/IE7.css">
+      <publishTime>05/14/2012 10:57:22</publishTime>
+    </File>
+    <File Include="Css/New folder/jQuery_Slider.css">
+      <publishTime>05/14/2012 10:57:22</publishTime>
+    </File>
+    <File Include="Css/New folder/pushup.css">
+      <publishTime>05/14/2012 10:57:22</publishTime>
+    </File>
+    <File Include="Css/nivo-slider.css">
+      <publishTime>05/14/2012 10:57:22</publishTime>
+    </File>
+    <File Include="Css/xbreadcrumbs.css">
+      <publishTime>05/14/2012 10:57:22</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>05/14/2012 10:57:23</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>05/14/2012 10:57:22</publishTime>
+    </File>
+    <File Include="images/arrow.gif">
+      <publishTime>05/14/2012 10:57:25</publishTime>
+    </File>
+    <File Include="images/arrow.png">
+      <publishTime>05/14/2012 10:57:26</publishTime>
+    </File>
+    <File Include="images/arrows.png">
+      <publishTime>05/14/2012 10:57:25</publishTime>
+    </File>
+    <File Include="images/arrow_up.png">
+      <publishTime>05/14/2012 10:57:25</publishTime>
+    </File>
+    <File Include="images/bg-banner-top.png">
+      <publishTime>05/14/2012 10:57:25</publishTime>
+    </File>
+    <File Include="images/bgpro.png">
+      <publishTime>05/14/2012 10:57:25</publishTime>
+    </File>
+    <File Include="images/bg_01.jpg">
+      <publishTime>05/14/2012 10:57:25</publishTime>
+    </File>
+    <File Include="images/bg_btn.gif">
+      <publishTime>05/14/2012 10:57:25</publishTime>
+    </File>
+    <File Include="images/bg_content.gif">
+      <publishTime>05/14/2012 10:57:25</publishTime>
+    </File>
+    <File Include="images/bg_menu.gif">
+      <publishTime>05/14/2012 10:57:25</publishTime>
+    </File>
+    <File Include="images/bg_tille_center.gif">
+      <publishTime>05/14/2012 10:57:25</publishTime>
+    </File>
+    <File Include="images/bg_top.gif">
+      <publishTime>05/14/2012 10:57:26</publishTime>
+    </File>
+    <File Include="images/bg_t_fun.gif">
+      <publishTime>05/14/2012 10:57:25</publishTime>
+    </File>
+    <File Include="images/bg_t_promotion_4.gif">
+      <publishTime>05/14/2012 10:57:25</publishTime>
+    </File>
+    <File Include="images/body_bg20110426.png">
+      <publishTime>05/14/2012 10:57:26</publishTime>
+    </File>
+    <File Include="images/btn-buynow.png">
+      <publishTime>05/14/2012 10:57:25</publishTime>
+    </File>
+    <File Include="images/btn-buynow1.png">
+      <publishTime>05/14/2012 10:57:25</publishTime>
+    </File>
+    <File Include="images/btn_sales.gif">
+      <publishTime>05/14/2012 10:57:25</publishTime>
+    </File>
+    <File Include="images/bullets.png">
+      <publishTime>05/14/2012 10:57:25</publishTime>
+    </File>
+    <File Include="images/button_delete_blue.png">
+      <publishTime>05/22/2012 08:55:58</publishTime>
+    </File>
+    <File Include="images/center_but.jpg">
+      <publishTime>05/14/2012 10:57:25</publishTime>
+    </File>
+    <File Include="images/column.jpg">
+      <publishTime>05/14/2012 10:57:26</publishTime>
+    </File>
+    <File Include="images/content_but.jpg">
+      <publishTime>05/14/2012 10:57:26</publishTime>
+    </File>
+    <File Include="images/content_top.jpg">
+      <publishTime>05/14/2012 10:57:26</publishTime>
+    </File>
+    <File Include="images/detail.png">
+      <publishTime>05/21/2012 22:29:08</publishTime>
+    </File>
+    <File Include="images/Driver.gif">
+      <publishTime>05/14/2012 10:57:25</publishTime>
+    </File>
+    <File Include="images/Email.jpg">
+      <publishTime>05/14/2012 10:57:25</publishTime>
+    </File>
+    <File Include="images/email_edit.png">
+      <publishTime>05/14/2012 10:57:25</publishTime>
+    </File>
+    <File Include="images/email_go.png">
+      <publishTime>05/14/2012 10:57:25</publishTime>
+    </File>
+    <File Include="images/fileclose.png">
+      <publishTime>05/21/2012 23:41:23</publishTime>
+    </File>
+    <File Include="images/footer-bg.gif">
+      <publishTime>05/14/2012 10:57:25</publishTime>
+    </File>
+    <File Include="images/graphics/close.png">
+      <publishTime>05/14/2012 10:57:25</publishTime>
+    </File>
+    <File Include="images/graphics/closeX.png">
+      <publishTime>05/14/2012 10:57:25</publishTime>
+    </File>
+    <File Include="images/graphics/controlbar-black-border.gif">
+      <publishTime>05/14/2012 10:57:25</publishTime>
+    </File>
+    <File Include="images/graphics/controlbar-text-buttons.png">
+      <publishTime>05/14/2012 10:57:25</publishTime>
+    </File>
+    <File Include="images/graphics/controlbar-white-small.gif">
+      <publishTime>05/14/2012 10:57:25</publishTime>
+    </File>
+    <File Include="images/graphics/controlbar-white.gif">
+      <publishTime>05/14/2012 10:57:25</publishTime>
+    </File>
+    <File Include="images/graphics/fullexpand.gif">
+      <publishTime>05/14/2012 10:57:25</publishTime>
+    </File>
+    <File Include="images/graphics/icon.gif">
+      <publishTime>05/14/2012 10:57:25</publishTime>
+    </File>
+    <File Include="images/graphics/index.html">
+      <publishTime>05/14/2012 10:57:25</publishTime>
+    </File>
+    <File Include="images/graphics/loader.white.gif">
+      <publishTime>05/14/2012 10:57:25</publishTime>
+    </File>
+    <File Include="images/graphics/resize.gif">
+      <publishTime>05/14/2012 10:57:25</publishTime>
+    </File>
+    <File Include="images/graphics/scrollarrows.png">
+      <publishTime>05/14/2012 10:57:25</publishTime>
+    </File>
+    <File Include="images/hot.gif">
+      <publishTime>05/14/2012 10:57:25</publishTime>
+    </File>
+    <File Include="images/hot2.gif">
+      <publishTime>05/14/2012 10:57:25</publishTime>
+    </File>
+    <File Include="images/icon/back.gif">
+      <publishTime>05/14/2012 10:57:25</publishTime>
+    </File>
+    <File Include="images/icon/print.gif">
+      <publishTime>05/14/2012 10:57:25</publishTime>
+    </File>
+    <File Include="images/icon/save.gif">
+      <publishTime>05/14/2012 10:57:25</publishTime>
+    </File>
+    <File Include="images/icon/send.gif">
+      <publishTime>05/14/2012 10:57:25</publishTime>
+    </File>
+    <File Include="images/icon/top.gif">
+      <publishTime>05/14/2012 10:57:25</publishTime>
+    </File>
+    <File Include="images/icon_delete.gif">
+      <publishTime>05/14/2012 10:57:25</publishTime>
+    </File>
+    <File Include="images/image_bg.gif">
+      <publishTime>05/14/2012 10:57:25</publishTime>
+    </File>
+    <File Include="images/load.gif">
+      <publishTime>05/14/2012 10:57:25</publishTime>
+    </File>
+    <File Include="images/logo.png">
+      <publishTime>05/14/2012 10:57:25</publishTime>
+    </File>
+    <File Include="images/menu_line.jpg">
+      <publishTime>05/14/2012 10:57:25</publishTime>
+    </File>
+    <File Include="images/nav-bg.png">
+      <publishTime>05/14/2012 10:57:25</publishTime>
+    </File>
+    <File Include="images/nav.html">
+      <publishTime>05/14/2012 10:57:25</publishTime>
+    </File>
+    <File Include="images/new.gif">
+      <publishTime>05/14/2012 10:57:25</publishTime>
+    </File>
+    <File Include="images/OrderStepPromotion.png">
+      <publishTime>05/14/2012 10:57:26</publishTime>
+    </File>
+    <File Include="images/otherNew_line.gif">
+      <publishTime>05/14/2012 10:57:25</publishTime>
+    </File>
+    <File Include="images/PriceList.gif">
+      <publishTime>05/14/2012 10:57:25</publishTime>
+    </File>
+    <File Include="images/product-topsale.png">
+      <publishTime>05/14/2012 10:57:25</publishTime>
+    </File>
+    <File Include="images/search.gif">
+      <publishTime>05/14/2012 10:57:25</publishTime>
+    </File>
+    <File Include="images/silde-nav.png">
+      <publishTime>05/14/2012 10:57:25</publishTime>
+    </File>
+    <File Include="images/support_but.jpg">
+      <publishTime>05/14/2012 10:57:25</publishTime>
+    </File>
+    <File Include="images/support_top.jpg">
+      <publishTime>05/14/2012 10:57:25</publishTime>
+    </File>
+    <File Include="images/sys/closed.gif">
+      <publishTime>05/14/2012 10:57:26</publishTime>
+    </File>
+    <File Include="images/sys/load.gif">
+      <publishTime>05/14/2012 10:57:26</publishTime>
+    </File>
+    <File Include="images/sys/open.gif">
+      <publishTime>05/14/2012 10:57:26</publishTime>
+    </File>
+    <File Include="images/table_header_bg.gif">
+      <publishTime>05/14/2012 10:57:25</publishTime>
+    </File>
+    <File Include="images/tille.jpg">
+      <publishTime>05/14/2012 10:57:25</publishTime>
+    </File>
+    <File Include="images/tille_but.jpg">
+      <publishTime>05/14/2012 10:57:25</publishTime>
+    </File>
+    <File Include="images/tille_colum2.jpg">
+      <publishTime>05/14/2012 10:57:25</publishTime>
+    </File>
+    <File Include="images/tooltip_header_bg.gif">
+      <publishTime>05/14/2012 10:57:26</publishTime>
+    </File>
+    <File Include="images/Upload.png">
+      <publishTime>05/14/2012 10:57:25</publishTime>
+    </File>
+    <File Include="Js/Commons.js">
+      <publishTime>05/14/2012 10:57:29</publishTime>
+    </File>
+    <File Include="Js/FreeTextBox/Utility/spacer.html">
+      <publishTime>05/14/2012 10:57:26</publishTime>
+    </File>
+    <File Include="Js/highslide-with-gallery.js">
+      <publishTime>05/14/2012 10:57:29</publishTime>
+    </File>
+    <File Include="Js/jquery-1.4.3.min.js">
+      <publishTime>05/14/2012 10:57:29</publishTime>
+    </File>
+    <File Include="Js/jquery.js">
+      <publishTime>05/14/2012 10:57:29</publishTime>
+    </File>
+    <File Include="Js/jquery.min.js">
+      <publishTime>05/14/2012 10:57:29</publishTime>
+    </File>
+    <File Include="Js/jquery.nivo.slider.js">
+      <publishTime>05/14/2012 10:57:29</publishTime>
+    </File>
+    <File Include="Js/jquery.nivo.slider.pack.js">
+      <publishTime>05/14/2012 10:57:29</publishTime>
+    </File>
+    <File Include="Js/Marquee.js">
+      <publishTime>05/14/2012 10:57:29</publishTime>
+    </File>
+    <File Include="Js/pushup.js">
+      <publishTime>05/14/2012 10:57:29</publishTime>
+    </File>
+    <File Include="Js/swfobject.js">
+      <publishTime>05/14/2012 10:57:29</publishTime>
+    </File>
+    <File Include="Js/wz_tooltip.js">
+      <publishTime>05/14/2012 10:57:29</publishTime>
+    </File>
+    <File Include="laptop.ico">
+      <publishTime>05/14/2012 10:57:26</publishTime>
+    </File>
+    <File Include="manager/Default.aspx">
+      <publishTime>05/21/2012 22:29:09</publishTime>
+    </File>
+    <File Include="MaterPage.Master">
+      <publishTime>05/21/2012 22:29:08</publishTime>
+    </File>
+    <File Include="ProductDetails.aspx">
+      <publishTime>05/14/2012 10:57:23</publishTime>
+    </File>
+    <File Include="Products.aspx">
+      <publishTime>05/14/2012 10:57:29</publishTime>
+    </File>
+    <File Include="Search.aspx">
+      <publishTime>05/21/2012 22:29:08</publishTime>
+    </File>
+    <File Include="Service References/ShopService/ShopService1.disco">
+      <publishTime>12/31/2012 17:24:29</publishTime>
+    </File>
+    <File Include="Service References/ShopService/ShopService1.wsdl">
+      <publishTime>12/31/2012 17:24:29</publishTime>
+    </File>
+    <File Include="ShoppingCart.aspx">
+      <publishTime>05/22/2012 21:34:33</publishTime>
+    </File>
+    <File Include="Upload/Banner/ipad.jpg">
+      <publishTime>05/14/2012 10:57:22</publishTime>
+    </File>
+    <File Include="Upload/Banner/ipad1.jpg">
+      <publishTime>05/14/2012 10:57:22</publishTime>
+    </File>
+    <File Include="Upload/Banner/iphone4s.jpg">
+      <publishTime>05/14/2012 10:57:22</publishTime>
+    </File>
+    <File Include="Upload/Banner/iphone4s1.jpg">
+      <publishTime>05/14/2012 10:57:22</publishTime>
+    </File>
+    <File Include="Upload/Banner/ipodtoch.jpg">
+      <publishTime>05/14/2012 10:57:22</publishTime>
+    </File>
+    <File Include="Upload/Banner/macbookair.jpg">
+      <publishTime>05/14/2012 10:57:21</publishTime>
+    </File>
+    <File Include="Upload/Banner/macbookair1.jpg">
+      <publishTime>05/14/2012 10:57:22</publishTime>
+    </File>
+    <File Include="Upload/Banner/macbookpro.jpg">
+      <publishTime>05/14/2012 10:57:22</publishTime>
+    </File>
+    <File Include="Upload/Banner/right1.jpg">
+      <publishTime>05/14/2012 10:57:22</publishTime>
+    </File>
+    <File Include="Upload/Banner/right2.jpg">
+      <publishTime>05/14/2012 10:57:22</publishTime>
+    </File>
+    <File Include="UserControl/Basket.ascx">
+      <publishTime>05/21/2012 22:29:09</publishTime>
+    </File>
+    <File Include="UserControl/CategoryMenu.ascx">
+      <publishTime>05/14/2012 10:56:40</publishTime>
+    </File>
+    <File Include="UserControl/CloudTag.ascx">
+      <publishTime>05/14/2012 10:56:40</publishTime>
+    </File>
+    <File Include="UserControl/Products.ascx">
+      <publishTime>05/14/2012 10:56:40</publishTime>
+    </File>
+    <File Include="UserControl/Search.ascx">
+      <publishTime>05/14/2012 10:56:40</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>12/31/2012 17:35:31</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

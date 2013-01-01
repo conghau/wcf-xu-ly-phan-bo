@@ -1,0 +1,5 @@
+D:\DoAnWebservice\Business\bin\Release\Business.dll.config
+D:\DoAnWebservice\Business\bin\Release\Business.dll
+D:\DoAnWebservice\Business\bin\Release\Business.pdb
+D:\DoAnWebservice\Business\obj\Release\Business.dll
+D:\DoAnWebservice\Business\obj\Release\Business.pdb

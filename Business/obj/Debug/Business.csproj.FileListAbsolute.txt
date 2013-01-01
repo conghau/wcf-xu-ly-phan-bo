@@ -1,0 +1,12 @@
+D:\DHSG\Sincere\NamIV\HocKyII\Web\Cuoiky\Business\bin\Debug\Business.dll.config
+D:\DHSG\Sincere\NamIV\HocKyII\Web\Cuoiky\Business\bin\Debug\Business.dll
+D:\DHSG\Sincere\NamIV\HocKyII\Web\Cuoiky\Business\bin\Debug\Business.pdb
+D:\DHSG\Sincere\NamIV\HocKyII\Web\Cuoiky\Business\obj\Debug\ResolveAssemblyReference.cache
+D:\DHSG\Sincere\NamIV\HocKyII\Web\Cuoiky\Business\obj\Debug\Business.dll
+D:\DHSG\Sincere\NamIV\HocKyII\Web\Cuoiky\Business\obj\Debug\Business.pdb
+D:\DoAnWebservice\Business\bin\Debug\Business.dll.config
+D:\DoAnWebservice\Business\bin\Debug\Business.dll
+D:\DoAnWebservice\Business\bin\Debug\Business.pdb
+D:\DoAnWebservice\Business\obj\Debug\Business.dll
+D:\DoAnWebservice\Business\obj\Debug\Business.pdb
+D:\DoAnWebservice\Business\obj\Debug\Business.csprojResolveAssemblyReference.cache
