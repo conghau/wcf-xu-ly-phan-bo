@@ -30,6 +30,7 @@
         {
             this.components = new System.ComponentModel.Container();
             Microsoft.Reporting.WinForms.ReportDataSource reportDataSource1 = new Microsoft.Reporting.WinForms.ReportDataSource();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UsrCtrlReport));
             this.ReceiptDeliveryBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
@@ -44,6 +45,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.reportViewer1 = new Microsoft.Reporting.WinForms.ReportViewer();
+            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.ReceiptDeliveryBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
@@ -148,11 +150,15 @@
             this.btnClose.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btnClose.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnClose.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnClose.ImageKey = "Sign-Error-icon.png";
+            this.btnClose.ImageList = this.imageList1;
             this.btnClose.Location = new System.Drawing.Point(18, 312);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(166, 35);
             this.btnClose.TabIndex = 12;
             this.btnClose.Text = "Đóng";
+            this.btnClose.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnClose.UseVisualStyleBackColor = true;
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
@@ -161,11 +167,15 @@
             this.btnReport.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btnReport.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnReport.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnReport.ImageKey = "Documents.png";
+            this.btnReport.ImageList = this.imageList1;
             this.btnReport.Location = new System.Drawing.Point(18, 259);
             this.btnReport.Name = "btnReport";
             this.btnReport.Size = new System.Drawing.Size(166, 35);
             this.btnReport.TabIndex = 11;
             this.btnReport.Text = "Xuất báo cáo";
+            this.btnReport.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnReport.UseVisualStyleBackColor = true;
             this.btnReport.Click += new System.EventHandler(this.btnReport_Click);
             // 
@@ -215,6 +225,23 @@
             this.reportViewer1.TabIndex = 0;
             this.reportViewer1.ZoomMode = Microsoft.Reporting.WinForms.ZoomMode.PageWidth;
             // 
+            // imageList1
+            // 
+            this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
+            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
+            this.imageList1.Images.SetKeyName(0, "Button-Add-icon.png");
+            this.imageList1.Images.SetKeyName(1, "Button-Refresh-icon.png");
+            this.imageList1.Images.SetKeyName(2, "database-add-icon.png");
+            this.imageList1.Images.SetKeyName(3, "edit-icon.png");
+            this.imageList1.Images.SetKeyName(4, "refresh-icon.png");
+            this.imageList1.Images.SetKeyName(5, "Sign-Error-icon.png");
+            this.imageList1.Images.SetKeyName(6, "search-icon.png");
+            this.imageList1.Images.SetKeyName(7, "Other-Save-Metro-icon.png");
+            this.imageList1.Images.SetKeyName(8, "Refresh-icon1.png");
+            this.imageList1.Images.SetKeyName(9, "810897126282830658.png");
+            this.imageList1.Images.SetKeyName(10, "Search alt.png");
+            this.imageList1.Images.SetKeyName(11, "Documents.png");
+            // 
             // UsrCtrlReport
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -252,5 +279,6 @@
         private System.Windows.Forms.DateTimePicker dtFrom;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
+        public System.Windows.Forms.ImageList imageList1;
     }
 }

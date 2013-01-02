@@ -124,11 +124,14 @@
   <data name="format_justify_left_last" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\format-justify-left-last.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="1356465018_Aqua Smooth Folder Apple" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1356465018_Aqua Smooth Folder Apple.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="1356464822_receipt" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\1356464822_receipt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="1356464832_blocks-mm-device-wired" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\1356464832_blocks-mm-device-wired.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="1356465015_packing" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1356465015_packing.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="system-config" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\system-config.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -136,13 +139,28 @@
   <data name="webbrowser" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\webbrowser.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="1356464832_blocks-mm-device-wired" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1356464832_blocks-mm-device-wired.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="1356464833_delivery" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\1356464833_delivery.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="1356465015_packing" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\1356465015_packing.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Button-Add-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Button-Add-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="1356465018_Aqua Smooth Folder Apple" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\1356465018_Aqua Smooth Folder Apple.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Button-Refresh-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Button-Refresh-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="database-add-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\database-add-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="edit-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\edit-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="refresh-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\refresh-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sign-Error-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sign-Error-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
