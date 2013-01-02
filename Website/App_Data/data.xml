@@ -3,7 +3,7 @@
   <cart>
     <id>1</id>
     <deliveryId>21</deliveryId>
-    <status>1</status>
+    <status>3</status>
     <date>2012-05-18T15:25:48.0771913+07:00</date>
     <totalprice>52012800</totalprice>
     <orderdetails>
@@ -28,7 +28,7 @@
   <cart>
     <id>2</id>
     <deliveryId>22</deliveryId>
-    <status>1</status>
+    <status>3</status>
     <date>2012-05-19T15:38:51.9452534+07:00</date>
     <totalprice>100548000</totalprice>
     <orderdetails>
@@ -53,7 +53,7 @@
   <cart>
     <id>3</id>
     <deliveryId>24</deliveryId>
-    <status>1</status>
+    <status>3</status>
     <date>2012-05-19T16:37:49.5767106+07:00</date>
     <totalprice>6600000</totalprice>
     <orderdetails>
@@ -78,7 +78,7 @@
   <cart>
     <id>4</id>
     <deliveryId>27</deliveryId>
-    <status>1</status>
+    <status>3</status>
     <date>2012-05-20T10:08:42.6466323+07:00</date>
     <totalprice>54000000</totalprice>
     <orderdetails>
@@ -103,7 +103,7 @@
   <cart>
     <id>5</id>
     <deliveryId>28</deliveryId>
-    <status>1</status>
+    <status>3</status>
     <date>2012-05-21T14:38:18.3891874+07:00</date>
     <totalprice>19905600</totalprice>
     <orderdetails>
@@ -146,7 +146,7 @@
   <cart>
     <id>6</id>
     <deliveryId>28</deliveryId>
-    <status>1</status>
+    <status>3</status>
     <date>2012-05-21T23:34:27.6967368+07:00</date>
     <totalprice>32508000</totalprice>
     <orderdetails>
@@ -171,7 +171,7 @@
   <cart>
     <id>7</id>
     <deliveryId>29</deliveryId>
-    <status>1</status>
+    <status>3</status>
     <date>2012-05-21T23:38:41.4292494+07:00</date>
     <totalprice>101016000</totalprice>
     <orderdetails>
@@ -196,7 +196,7 @@
   <cart>
     <id>8</id>
     <deliveryId>30</deliveryId>
-    <status>1</status>
+    <status>3</status>
     <date>2012-05-21T23:45:03.0020742+07:00</date>
     <totalprice>1948003118.100</totalprice>
     <orderdetails>
@@ -221,7 +221,7 @@
   <cart>
     <id>9</id>
     <deliveryId>31</deliveryId>
-    <status>1</status>
+    <status>3</status>
     <date>2012-05-21T23:46:24.6007413+07:00</date>
     <totalprice>94122000</totalprice>
     <orderdetails>
@@ -246,7 +246,7 @@
   <cart>
     <id>10</id>
     <deliveryId>32</deliveryId>
-    <status>1</status>
+    <status>3</status>
     <date>2012-05-21T23:56:12.6443755+07:00</date>
     <totalprice>30333333.33160</totalprice>
     <orderdetails>
@@ -271,7 +271,7 @@
   <cart>
     <id>11</id>
     <deliveryId>33</deliveryId>
-    <status>1</status>
+    <status>3</status>
     <date>2012-05-22T00:00:31.5791857+07:00</date>
     <totalprice>196068600</totalprice>
     <orderdetails>
@@ -296,7 +296,7 @@
   <cart>
     <id>12</id>
     <deliveryId>34</deliveryId>
-    <status>1</status>
+    <status>2</status>
     <date>2012-05-22T00:04:05.9444467+07:00</date>
     <totalprice>6688500</totalprice>
     <orderdetails>
@@ -321,7 +321,7 @@
   <cart>
     <id>13</id>
     <deliveryId>35</deliveryId>
-    <status>1</status>
+    <status>3</status>
     <date>2012-05-22T00:14:10.6060314+07:00</date>
     <totalprice>103350000</totalprice>
     <orderdetails>
@@ -346,7 +346,7 @@
   <cart>
     <id>14</id>
     <deliveryId>30</deliveryId>
-    <status>1</status>
+    <status>3</status>
     <date>2012-05-22T00:21:06.0997963+07:00</date>
     <totalprice>6688500</totalprice>
     <orderdetails>
@@ -371,7 +371,7 @@
   <cart>
     <id>15</id>
     <deliveryId>31</deliveryId>
-    <status>1</status>
+    <status>3</status>
     <date>2012-05-22T00:23:22.8116157+07:00</date>
     <totalprice>195</totalprice>
     <orderdetails>
@@ -396,7 +396,7 @@
   <cart>
     <id>16</id>
     <deliveryId>30</deliveryId>
-    <status>1</status>
+    <status>3</status>
     <date>2012-05-22T00:31:46.4914246+07:00</date>
     <totalprice>6688500</totalprice>
     <orderdetails>
@@ -421,7 +421,7 @@
   <cart>
     <id>17</id>
     <deliveryId>31</deliveryId>
-    <status>1</status>
+    <status>3</status>
     <date>2012-05-22T00:33:45.5682354+07:00</date>
     <totalprice>2398.5</totalprice>
     <orderdetails>
@@ -446,7 +446,7 @@
   <cart>
     <id>18</id>
     <deliveryId>32</deliveryId>
-    <status>1</status>
+    <status>3</status>
     <date>2012-05-22T09:03:32.2528149+07:00</date>
     <totalprice>8240.14230</totalprice>
     <orderdetails>
@@ -471,7 +471,7 @@
   <cart>
     <id>19</id>
     <deliveryId>33</deliveryId>
-    <status>1</status>
+    <status>3</status>
     <date>2012-05-22T09:10:14.227993+07:00</date>
     <totalprice>3148.58466</totalprice>
     <orderdetails>
@@ -496,7 +496,7 @@
   <cart>
     <id>20</id>
     <deliveryId>34</deliveryId>
-    <status>1</status>
+    <status>2</status>
     <date>2012-05-22T21:38:34.0965796+07:00</date>
     <totalprice>349.84274</totalprice>
     <orderdetails>
@@ -521,7 +521,7 @@
   <cart>
     <id>21</id>
     <deliveryId>35</deliveryId>
-    <status>1</status>
+    <status>3</status>
     <date>2012-05-22T21:41:46.5438651+07:00</date>
     <totalprice>468</totalprice>
     <orderdetails>
@@ -546,7 +546,7 @@
   <cart>
     <id>22</id>
     <deliveryId>36</deliveryId>
-    <status>1</status>
+    <status>3</status>
     <date>2012-05-22T21:48:18.0040725+07:00</date>
     <totalprice>3521700</totalprice>
     <orderdetails>
@@ -571,7 +571,7 @@
   <cart>
     <id>23</id>
     <deliveryId>37</deliveryId>
-    <status>1</status>
+    <status>2</status>
     <date>2012-05-22T21:49:09.1719992+07:00</date>
     <totalprice>3521700</totalprice>
     <orderdetails>
@@ -796,7 +796,7 @@
   <cart>
     <id>32</id>
     <deliveryId>36</deliveryId>
-    <status>1</status>
+    <status>3</status>
     <date>2012-05-25T23:12:18.2004605+07:00</date>
     <totalprice>22848.08487</totalprice>
     <orderdetails>

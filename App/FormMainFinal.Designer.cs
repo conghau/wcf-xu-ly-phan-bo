@@ -46,6 +46,7 @@
             this.closeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.closeAllButThisToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.closeAllToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.menuStrip1.SuspendLayout();
             this.contextMenuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -82,14 +83,14 @@
             // configToolStripMenuItem1
             // 
             this.configToolStripMenuItem1.Name = "configToolStripMenuItem1";
-            this.configToolStripMenuItem1.Size = new System.Drawing.Size(152, 28);
+            this.configToolStripMenuItem1.Size = new System.Drawing.Size(130, 28);
             this.configToolStripMenuItem1.Text = "Config";
             this.configToolStripMenuItem1.Click += new System.EventHandler(this.configToolStripMenuItem1_Click);
             // 
             // exitToolStripMenuItem1
             // 
             this.exitToolStripMenuItem1.Name = "exitToolStripMenuItem1";
-            this.exitToolStripMenuItem1.Size = new System.Drawing.Size(152, 28);
+            this.exitToolStripMenuItem1.Size = new System.Drawing.Size(130, 28);
             this.exitToolStripMenuItem1.Text = "Thoát";
             this.exitToolStripMenuItem1.Click += new System.EventHandler(this.exitToolStripMenuItem1_Click);
             // 
@@ -188,10 +189,23 @@
             this.closeAllToolStripMenuItem.Text = "Close All";
             this.closeAllToolStripMenuItem.Click += new System.EventHandler(this.closeAllToolStripMenuItem_Click);
             // 
+            // imageList1
+            // 
+            this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
+            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
+            this.imageList1.Images.SetKeyName(0, "Button-Add-icon.png");
+            this.imageList1.Images.SetKeyName(1, "Button-Refresh-icon.png");
+            this.imageList1.Images.SetKeyName(2, "database-add-icon.png");
+            this.imageList1.Images.SetKeyName(3, "edit-icon.png");
+            this.imageList1.Images.SetKeyName(4, "refresh-icon.png");
+            this.imageList1.Images.SetKeyName(5, "Sign-Error-icon.png");
+            this.imageList1.Images.SetKeyName(6, "search-icon.png");
+            // 
             // FormMainFinal
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
+            this.AutoScroll = true;
             this.ClientSize = new System.Drawing.Size(1087, 570);
             this.Controls.Add(this.myTabControl);
             this.Controls.Add(this.menuStrip1);
@@ -226,5 +240,6 @@
         private System.Windows.Forms.ToolStripMenuItem deliveryNoteToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem statisticsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem reportToolStripMenuItem;
+        public System.Windows.Forms.ImageList imageList1;
     }
 }

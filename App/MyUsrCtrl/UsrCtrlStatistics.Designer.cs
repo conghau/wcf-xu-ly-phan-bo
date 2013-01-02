@@ -33,6 +33,8 @@ namespace App.MyUsrCtrl
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UsrCtrlStatistics));
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -53,6 +55,7 @@ namespace App.MyUsrCtrl
             this.colRepo1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.colRepo2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.colTime = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -121,11 +124,15 @@ namespace App.MyUsrCtrl
             this.btnClose.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btnClose.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnClose.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnClose.ImageIndex = 5;
+            this.btnClose.ImageList = this.imageList1;
             this.btnClose.Location = new System.Drawing.Point(18, 312);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(156, 35);
             this.btnClose.TabIndex = 12;
             this.btnClose.Text = "Close";
+            this.btnClose.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnClose.UseVisualStyleBackColor = true;
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
@@ -134,11 +141,15 @@ namespace App.MyUsrCtrl
             this.btnStatistics.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.btnStatistics.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnStatistics.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnStatistics.ImageIndex = 11;
+            this.btnStatistics.ImageList = this.imageList1;
             this.btnStatistics.Location = new System.Drawing.Point(18, 259);
             this.btnStatistics.Name = "btnStatistics";
             this.btnStatistics.Size = new System.Drawing.Size(156, 35);
             this.btnStatistics.TabIndex = 11;
             this.btnStatistics.Text = "Statistics";
+            this.btnStatistics.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnStatistics.UseVisualStyleBackColor = true;
             this.btnStatistics.Click += new System.EventHandler(this.btnStatistics_Click);
             // 
@@ -264,6 +275,23 @@ namespace App.MyUsrCtrl
             this.colTime.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.colTime.Width = 180;
             // 
+            // imageList1
+            // 
+            this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
+            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
+            this.imageList1.Images.SetKeyName(0, "Button-Add-icon.png");
+            this.imageList1.Images.SetKeyName(1, "Button-Refresh-icon.png");
+            this.imageList1.Images.SetKeyName(2, "database-add-icon.png");
+            this.imageList1.Images.SetKeyName(3, "edit-icon.png");
+            this.imageList1.Images.SetKeyName(4, "refresh-icon.png");
+            this.imageList1.Images.SetKeyName(5, "Sign-Error-icon.png");
+            this.imageList1.Images.SetKeyName(6, "search-icon.png");
+            this.imageList1.Images.SetKeyName(7, "Other-Save-Metro-icon.png");
+            this.imageList1.Images.SetKeyName(8, "Refresh-icon1.png");
+            this.imageList1.Images.SetKeyName(9, "810897126282830658.png");
+            this.imageList1.Images.SetKeyName(10, "Search alt.png");
+            this.imageList1.Images.SetKeyName(11, "");
+            // 
             // UsrCtrlStatistics
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -305,5 +333,6 @@ namespace App.MyUsrCtrl
         private ColumnHeader colRepo2;
         private ColumnHeader columnHeader1;
         private ColumnHeader colTime;
+        public ImageList imageList1;
     }
 }

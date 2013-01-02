@@ -262,6 +262,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Apple.ico" />
+    <None Include="Resources\Sign-Error-icon.png" />
+    <None Include="Resources\refresh-icon.png" />
+    <None Include="Resources\edit-icon.png" />
+    <None Include="Resources\database-add-icon.png" />
+    <None Include="Resources\Button-Refresh-icon.png" />
+    <None Include="Resources\Button-Add-icon.png" />
     <None Include="Resources\1356465018_Aqua Smooth Folder Apple.png" />
     <None Include="Resources\1356465015_packing.png" />
     <None Include="Resources\1356464833_delivery.png" />

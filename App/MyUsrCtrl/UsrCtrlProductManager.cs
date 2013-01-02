@@ -76,7 +76,7 @@ namespace App.MyUsrCtrl
             //statistics 
             var totalProducts = list.Count;
             var totalQuantities = list.Sum(p => p.Inventory);
-            lblAlert.Text = string.Format("Có {0} sản phẩm với {1} unit(s) trong kho", totalProducts,
+            lblAlert.Text = string.Format("Có {0} sản phẩm trong kho", totalProducts,
                                           totalQuantities);
         }
 

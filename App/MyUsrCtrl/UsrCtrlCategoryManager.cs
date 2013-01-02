@@ -78,6 +78,9 @@ namespace App.MyUsrCtrl
         {
             txtCode.Enabled = false;
             txtName.Enabled = false;
+            btn_task.Enabled = false;
+            btnAdd.Enabled = true;
+            btnUpdate.Enabled = true;
             lblAlert.Text = string.Empty;
             if (e.RowIndex < 0) return;
             var item = (Category)dataGridViewCategory.Rows[e.RowIndex].DataBoundItem;
@@ -90,46 +93,49 @@ namespace App.MyUsrCtrl
             txtName.Enabled = true;
             txtName.Text = "";
             txtCode.Text = "";
+            btnUpdate.Enabled = false;
+            btn_task.Enabled = true;
             lblAlert.Text = string.Empty;
-            var item = new Category { Code = txtCode.Text, Name = txtName.Text };
-            _listAdd.Add(item);
-            _list.Add(item);
-            LoadDataGridView();
+            //var item = new Category { Code = txtCode.Text, Name = txtName.Text };
+            //_listAdd.Add(item);
+            //_list.Add(item);
+            //LoadDataGridView();
         }
 
         private void btnUpdate_Click(object sender, EventArgs e)
         {
             txtCode.Enabled = true;
             txtName.Enabled = true;
+            btnAdd.Enabled = false;
+            btn_task.Enabled = true;
+            //if (dataGridViewCategory.SelectedRows.Count < 0) return;
+            ////identify item index in list
+            //var index = dataGridViewCategory.SelectedRows[0].Index;
 
-            if (dataGridViewCategory.SelectedRows.Count < 0) return;
-            //identify item index in list
-            var index = dataGridViewCategory.SelectedRows[0].Index;
+            ////get a item in list at index
+            //var itemOriginal = _list[index];
 
-            //get a item in list at index
-            var itemOriginal = _list[index];
+            ////set data to item
+            //itemOriginal.Code = txtCode.Text;
+            //itemOriginal.Name = txtName.Text;
 
-            //set data to item
-            itemOriginal.Code = txtCode.Text;
-            itemOriginal.Name = txtName.Text;
+            //var indexItemInAdd = _listAdd.FindIndex(c => c.Code.Equals(itemOriginal.Code));
+            //if (indexItemInAdd > -1)
+            //{
+            //    var itemInAdd = _listAdd[indexItemInAdd];
+            //    itemInAdd.Code = itemOriginal.Code;
+            //    itemInAdd.Name = itemOriginal.Name;
 
-            var indexItemInAdd = _listAdd.FindIndex(c => c.Code.Equals(itemOriginal.Code));
-            if (indexItemInAdd > -1)
-            {
-                var itemInAdd = _listAdd[indexItemInAdd];
-                itemInAdd.Code = itemOriginal.Code;
-                itemInAdd.Name = itemOriginal.Name;
-
-            }
-            else
-            {
-                //add in list update
-                _listUpdate.Add(itemOriginal);
-            }
+            //}
+            //else
+            //{
+            //    //add in list update
+            //    _listUpdate.Add(itemOriginal);
+            //}
 
 
-            //reload data grid view
-            LoadDataGridView();
+            ////reload data grid view
+            //LoadDataGridView();
         }
 
         private void btnDelete_Click(object sender, EventArgs e)
@@ -185,9 +191,9 @@ namespace App.MyUsrCtrl
         }
         private void SetLableNotice()
         {
-            var msgAdd = string.Format("Added: {0} categories", totalRowsAdd);
-            var msgUpdate = string.Format("Updated: {0} categories", totalRowsUpdate);
-            var msgDelete = string.Format("Deleted: {0} categories", totalRowsDelete);
+            var msgAdd = string.Format("Thêm : {0} nhóm sản phẩm", totalRowsAdd);
+            var msgUpdate = string.Format("Sửa: {0} nhóm sản phẩm", totalRowsUpdate);
+            var msgDelete = string.Format("Xóa: {0} nhóm sản phẩm", totalRowsDelete);
             lblAlert.Text = string.Format("{0}\n{1}\n{2}", msgAdd, msgUpdate, msgDelete);
 
             totalRowsAdd = 0;
@@ -238,6 +244,49 @@ namespace App.MyUsrCtrl
             ClearAllList();
             LoadTextBox(_list.ElementAt(0));
             lblAlert.Text = string.Empty;
+        }
+
+        private void btn_task_Click(object sender, EventArgs e)
+        {
+            if (btnAdd.Enabled == true)
+            {
+                var item = new Category { Code = txtCode.Text, Name = txtName.Text };
+                _listAdd.Add(item);
+                _list.Add(item);
+                LoadDataGridView();
+            }
+
+            if (btnUpdate.Enabled == true)
+            {
+                if (dataGridViewCategory.SelectedRows.Count < 0) return;
+                //identify item index in list
+                var index = dataGridViewCategory.SelectedRows[0].Index;
+
+                //get a item in list at index
+                var itemOriginal = _list[index];
+
+                //set data to item
+                itemOriginal.Code = txtCode.Text;
+                itemOriginal.Name = txtName.Text;
+
+                var indexItemInAdd = _listAdd.FindIndex(c => c.Code.Equals(itemOriginal.Code));
+                if (indexItemInAdd > -1)
+                {
+                    var itemInAdd = _listAdd[indexItemInAdd];
+                    itemInAdd.Code = itemOriginal.Code;
+                    itemInAdd.Name = itemOriginal.Name;
+
+                }
+                else
+                {
+                    //add in list update
+                    _listUpdate.Add(itemOriginal);
+                }
+
+
+                //reload data grid view
+                LoadDataGridView();
+            }
         }
     }
 }
